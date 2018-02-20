@@ -10,10 +10,10 @@ key: page-about
 
 
 
-王思阳
+姓名：     王思阳
 
-1996.12.26
+邮箱：     wsyred@foxmail.com
 
-wsyred@foxmail.com
+github：  https://github.com/December26
 
 ## title

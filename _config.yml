@@ -15,7 +15,7 @@ text_color_theme: forest #eg: default | dark | forest | ocean | chocolate | oran
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: wsy's blog
+title: 王思阳
 description: > #this means to ignore newlines until "nav_lists:"
   wsy's Blog
 
@@ -44,7 +44,7 @@ timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 ## Author & social ##
 author:
   name: Anthony
-  email: wsyred@foxmail.com
+  # email: wsyred@foxmail.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
   # github: https://github.com/December26
