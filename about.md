@@ -8,10 +8,12 @@ titles:
 key: page-about
 ---
 
-Just say something about yourself. :+1:
 
-{% highlight javascript %}
-  (() => console.log('hello, world!'))();
-{% endhighlight %}
+
+王思阳
+
+1996.12.26
+
+wsyred@foxmail.com
 
 ## title
