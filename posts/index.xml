@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://December26.github.io/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 May 2024 09:25:37 +0800</lastBuildDate>
+    <atom:link href="http://December26.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://December26.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 04 May 2024 09:25:37 +0800</pubDate>
+      <guid>http://December26.github.io/posts/my-first-post/</guid>
+      <description>Anthony&amp;rsquo;s Homepage Welcome!</description>
+    </item>
+    <item>
+      <title>Thread Lifecycle Safety in C&#43;&#43;</title>
+      <link>http://December26.github.io/posts/cpp-thread/</link>
+      <pubDate>Sat, 04 May 2024 09:25:37 +0800</pubDate>
+      <guid>http://December26.github.io/posts/cpp-thread/</guid>
+      <description>In this article, we will explore the lifecycle of std::thread in C++, demonstrate with examples, discuss best practices, and highlight common pitfalls.&#xA;Introduction Multithreading is a powerful tool for leveraging modern multi-core processors to improve the performance of our applications. However, it also introduces complexity, particularly around thread lifecycle management. Understanding how to properly manage threads is crucial for writing safe and efficient multithreaded applications.&#xA;Demo: Thread Lifecycle in Action Let&amp;rsquo;s start with a simple example to illustrate the lifecycle of a thread.</description>
+    </item>
+  </channel>
+</rss>

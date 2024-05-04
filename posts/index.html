@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Posts | My New Hugo Site</title>
+
+
+<link rel="stylesheet" href="/assets/combined.min.71ad859825eb616f70adb7b10de8f7baefea8df3715e9dda3f78e232bed45d53.css" media="all">
+
+
+
+
+  
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="auto">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+    <h1 class="header-title">My New Hugo Site</h1>
+
+    <div class="flex">
+        
+
+        
+        
+        <p class="small ">
+            <a href="/">
+                /home
+            </a>
+        </p>
+        
+        <p class="small  bold ">
+            <a href="/posts">
+                /posts
+            </a>
+        </p>
+        
+        <p class="small ">
+            <a href="/resume">
+                /resume
+            </a>
+        </p>
+        
+        
+    </div>
+
+</div>
+    </header>
+
+    <main class="main">
+      
+<h1>Posts</h1>
+
+
+
+
+
+
+
+
+
+
+<div class="post-line">
+
+    
+    
+    
+    
+
+
+    <p class="line-date">4 May 2024 </p>
+
+    <div>
+        <p class="line-title"> <a href="/posts/my-first-post/">My First Post</a></p>
+
+        
+        <p class="line-summary"> Anthony&rsquo;s Homepage Welcome! </p>
+        
+    </div>
+</div>
+
+<div class="post-line">
+
+    
+    
+    
+    
+
+
+    <p class="line-date">4 May 2024 </p>
+
+    <div>
+        <p class="line-title"> <a href="/posts/cpp-thread/">Thread Lifecycle Safety in C&#43;&#43;</a></p>
+
+        
+        <p class="line-summary"> In this article, we will explore the lifecycle of std::thread in C++, demonstrate with examples, discuss best practices, and highlight common pitfalls.
+Introduction Multithreading is a powerful tool for leveraging modern multi-core processors to improve the performance of our applications. However, it also introduces complexity, particularly around thread lifecycle management. Understanding how to properly manage threads is crucial for writing safe and efficient multithreaded applications.
+Demo: Thread Lifecycle in Action Let&rsquo;s start with a simple example to illustrate the lifecycle of a thread. </p>
+        
+    </div>
+</div>
+
+
+
+
+
+    </main>
+  </div>
+
+  <footer>
+    <p>Powered by
+    <a href="https://gohugo.io/">Hugo</a>
+    and
+    <a href="https://github.com/tomfran/typo">typo</a>
+</p>
+
+
+  </footer>
+
+</body>
+
+
+<script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    console
+    document.body.classList.remove("auto");
+    let cls = "light";
+
+    console.log
+
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+
+  }
+
+  function invert() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    console.log("Setting invert listener");
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invert);
+  }
+
+  setTheme();
+
+</script>
+
+
+</html>
